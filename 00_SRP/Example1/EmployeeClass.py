@@ -38,7 +38,7 @@ class Employee:
         self.name = name
 
     def calculate_pay(self):
-        pc = PayCaculator()
+        pc = PayCalculator()
         print("Calculating the pay using pc.")
 
     def report_hours(self):
@@ -54,7 +54,7 @@ class HourReporter:
     def report_hours(self):
         rh = RegularHoursCalculator()
 
-class PayCaculator:
+class PayCalculator:
     def calculate_pay(self):
         rh = RegularHoursCalculator()
         pass
