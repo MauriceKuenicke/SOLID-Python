@@ -67,7 +67,7 @@ class RegularHoursCalculator:
     def regular_hours(self):
         print("A way to calculate non-overtime hours.")
 
-# While this solution looks more complicated then the original approach, we have to keep in 
+# While this solution looks more complicated than the original approach, we have to keep in 
 # mind that a lot more functions will be used inside the classes. You probably need a few more
 # functions to calculate the pay for an employee. Now there's only one single reason to change
-# a class.
+# a class and therefore to recompile it when using other programming languages like Rust or Java.
