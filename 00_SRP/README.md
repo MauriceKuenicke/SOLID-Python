@@ -1,0 +1,1 @@
+# SRP: The Single Responsibility Principle
